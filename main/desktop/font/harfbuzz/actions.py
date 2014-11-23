@@ -19,7 +19,7 @@ def setup():
     if get.buildTYPE() == "emul32":
         options += "--with-glib=yes \
                     --with-graphite2=no \
-                    --with-cairo=yes \
+                    --with-cairo=no \
                     --with-icu=yes"
     autotools.configure(options)
 
